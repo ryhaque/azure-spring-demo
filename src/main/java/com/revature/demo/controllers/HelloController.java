@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/")
     public String hello(){
-        return "Hello From Spring Boot";
+        return "Hello from Azure Spring web app";
     }
     @GetMapping("/fruit")
     public String fruit(){
-        return "Orange Apple Kiwi";
+        return "Banana Apple Orange Kiwi";
     }
 }
